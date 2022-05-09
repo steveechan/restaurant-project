@@ -7,10 +7,13 @@ body {
     height: 92px;
     left: 0px;
     top: 0px;
-    background: black;
+    background-image: linear-gradient( 109.6deg,  rgba(245,56,56,1) 11.2%, rgba(234,192,117,1) 78% );
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px rgba(226, 192, 0, 0.151);
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .navbar-links {
@@ -72,7 +75,7 @@ color: white;
 position: relative;
 display: inline-block;
 left: 50%;
-top: 500px;
+top: 400px;
 transform: translateX(-50%);
 background: #FF6B00;
 border-radius: 1000px;
@@ -98,15 +101,14 @@ padding: 10px 29px;
 }
 
 h2 {
-opacity: .5;
+opacity: 1;
 position: relative;
 width: 1920px;
-left: 250px;
-top: 50px;
-
-color: rgb(0, 0, 0);
+top: 100px;
 text-transform: uppercase;
--webkit-text-stroke: 5px black;
+
+color: rgb(212, 132, 13);
+-webkit-text-stroke: 2px rgba(230, 119, 16, 0.411);
 
 font-family: 'Inika';
 font-style: normal;
@@ -114,6 +116,7 @@ font-weight: 400;
 font-size: 96px;
 line-height: 125px;
 text-align: center;
+font-weight: bold;
 }
 
 .info
@@ -123,6 +126,7 @@ text-align: center;
     height: 300px;
     margin: 240px auto;
     color: white;
+    top: -100px;
 }
 
 .info .box {
